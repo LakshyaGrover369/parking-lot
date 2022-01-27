@@ -1,0 +1,22 @@
+@media screen and (max-width:400px){
+    #heroSection #welcomeHeading{
+        font-size:1.6rem;
+    }
+    #addHeading{
+        font-size:1.6rem;
+
+    }
+    .carInput{
+        width:100%;
+
+    }
+    #input form{
+        padding:5%;
+    }
+    #addCarBtn{
+        margin: 12% 0px 0px 0px;
+    }
+    #showingData {
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,286 @@
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#bodyy{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+nav{
+    width: 100%;
+    height: 10vh;
+    color: white;
+    background-color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+    
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+max-width: 1000px;
+position: relative;
+margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+cursor: pointer;
+position: absolute;
+top: 50%;
+width: auto;
+margin-top: -22px;
+padding: 16px;
+color: white;
+font-weight: bold;
+font-size: 18px;
+transition: 0.6s ease;
+border-radius: 0 3px 3px 0;
+user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+right: 0;
+border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+color: #f2f2f2;
+font-size: 15px;
+padding: 8px 12px;
+position: absolute;
+bottom: 8px;
+width: 100%;
+text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+color: #f2f2f2;
+font-size: 12px;
+padding: 8px 12px;
+position: absolute;
+top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+cursor: pointer;
+height: 15px;
+width: 15px;
+margin: 0 2px;
+background-color: #bbb;
+border-radius: 50%;
+display: inline-block;
+transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+-webkit-animation-name: fade;
+-webkit-animation-duration: 1.5s;
+animation-name: fade;
+animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+from {opacity: .4} 
+to {opacity: 1}
+}
+
+@keyframes fade {
+from {opacity: .4} 
+to {opacity: 1}
+}
+
+
+#heroSection #welcomeHeading{
+    position:absolute;
+    z-index: 10;
+    text-align: center;
+    width: 100%;
+    font-size: 2rem;
+    color:white;
+}
+#addHeading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 6% 0%;
+    font-size: 2rem;
+}
+#input{
+
+    width: 100%;
+}
+
+#input form {
+    background-color: rgb(226, 225, 225);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    border-radius: 20px;
+    padding:2%;
+}
+.carInput{
+    
+    margin: auto;
+    margin: 2.5%;
+    height: 5vh;
+    width: 60%;
+    border-radius: 10px;
+    display: flex;
+    padding: 5px;
+}
+#addCarBtn{
+    width: auto;
+    padding: 1.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:mediumpurple;
+    font-weight: bolder;
+}
+#addCarBtn:hover{
+    box-shadow:  3px 3px black;
+    transform: scale(1.1);
+}
+
+
+
+
+#srch{
+    width: 100%;
+    padding: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(219, 219, 217);
+    border-radius: 15px;
+}
+#inputSearch{
+    width: 100%;
+    padding: 1%;
+    border-bottom-color: black;
+    border-top-left-radius:10px;
+    border-bottom-left-radius:10px;
+    padding-left: 1rem ;
+}
+#searchBtn{
+    padding: 1%;
+    background-color: blueviolet;
+    border-top-color: black;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+
+
+
+#output{
+    margin: 2.5%;
+    width: 100%;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgb(223, 219, 219);
+    border-radius: 20px;
+    overflow-x: scroll;
+}
+#showHeading{
+    margin-bottom: 4%;
+    font-size: 2rem;
+}
+#showingData{
+    width: 100%;
+    overflow-x:scroll;
+}
+table #carOutputHeadingRowx{
+    display: flex;  
+    justify-content: space-evenly;
+    align-items: center;
+}
+hr{
+    background-color: black;
+    height: 5px;
+    width: 100%;
+    margin: 2px;
+}
+#myBtn {
+display: none;
+position: fixed; 
+bottom: 20px;
+right: 30px; 
+z-index: 99; 
+border: none;
+outline: none;
+background-color: red;
+color: white; 
+cursor: pointer;
+padding: 15px; 
+border-radius: 10px; 
+font-size: 18px; 
+opacity:0.7;
+}
+
+#myBtn:hover {
+background-color: #555; /* Add a dark-grey background on hover */
+}
+footer{
+    height: 7vh;
+    color: white;
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+/* @keyframes slidein {
+from {
+margin-left: 100%;
+width: 300%;
+}
+to {
+margin-left: 0%;
+width: 100%;
+}
+} */
+
+
