@@ -96,7 +96,7 @@ showData();
         <td class="dataOutput">${element.entryDate}</td>
         <td class="dataOutput">${element.exitDate}</td>
         <td class="dataOutput">
-        <button id="delBtn" onclick="deleteData(${index})"><img src="img/dustbin.jpg"></button>
+        <button id="delBtn" onclick="deleteData(${index})"><i class="fa fa-trash"></i></button>
         </td>
         </tr>
         <style>
